@@ -8,8 +8,7 @@
          canvas { background: #eee; display: block; margin: 0 auto; }
      </style>
 </head>
-<body>
-     //aa                        
+<body>    
 <canvas id="myCanvas" width="300" height="600"></canvas>
                              
 <script>
@@ -59,9 +58,9 @@ function keyDownHandler(e){
         //alert("down"); OK
 
     }
-    if(e.key == "KeyF" || e.key == "F"){
+    if(e.keyCode == 70){
         rotate();
-        alert("f");
+        //alert("f"); OK
     }
 }
 function keyUpHandler(e){
